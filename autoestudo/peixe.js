@@ -19,12 +19,12 @@ let nivel = 1;
 let scoretext, niveltext;
 
 function preload() {
-    this.load.image('mar', '/assets/bg_azul-escuro.png');
-    this.load.image('logo', '/assets/logo-inteli_branco.png');
-    this.load.image('tubarao', '/assets/peixes/tubarao.png');
-    this.load.image('peixe', '/assets/peixes/peixinho_laranja.png');
-    this.load.image('concha', '/assets/peixes/concha.png');
-    this.load.image('reload', '/assets/reload.png');
+    this.load.image('mar', './assets/bg_azul-escuro.png');
+    this.load.image('logo', './assets/logo-inteli_branco.png');
+    this.load.image('tubarao', './assets/peixes/tubarao.png');
+    this.load.image('peixe', './assets/peixes/peixinho_laranja.png');
+    this.load.image('concha', './assets/peixes/concha.png');
+    this.load.image('reload', './assets/reload.png');
 }
 
 function create() {
